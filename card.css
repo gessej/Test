@@ -45,8 +45,7 @@ body {
     border-radius: 16px;
     background: #17141D;
     box-shadow: -1rem 0 3rem #000;
-
-    transition: 0.2;
+    transition: 0.4s;
 }
 
 .card:hover {
@@ -74,3 +73,4 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
