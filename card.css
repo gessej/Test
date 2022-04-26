@@ -54,11 +54,13 @@ body {
 .card:hover {
     transform: translateY(-1rem);
     position: absolute;
+    backface-visibility: hidden;
 }
 
 .card:hover~.card {
     transform: translateX(120px);
     position: absolute;
+    backface-visibility: hidden;
 }
 
 .card:not(:first-child) {
