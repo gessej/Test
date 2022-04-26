@@ -54,13 +54,13 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
    
   
 }
 
 .card:focus-within~.card, .card:hover~.card{
-    transform: translateX(120px);
+    -webkit-transform: translateX(120px);
  
 
 }
