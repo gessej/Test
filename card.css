@@ -13,7 +13,7 @@ body {
     display: flex;
     position: relative;
     padding: 3rem;
-    /*overflow: scroll; */
+    overflow: scroll; 
 }
 
 .card-list::-webkit-scrollbar{
@@ -53,10 +53,12 @@ body {
 
 .card:hover {
     transform: translateY(-1rem);
+    position: absolute;
 }
 
 .card:hover~.card {
     transform: translateX(120px);
+    position: absolute;
 }
 
 .card:not(:first-child) {
