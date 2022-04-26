@@ -6,7 +6,7 @@ body {
     background-color: #17141D;
     color: white;
     font-family: 'DM Mono', monospace;
-
+    transform: translate3d(0, 0, 0);
 }
 
 .card-list {
