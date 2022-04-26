@@ -54,15 +54,15 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-1rem);scale:(0.25);
-    position: absolute;
-    backface-visibility: hidden;
+    transform: translateY(-1rem);
+   
+  
 }
 
-.card:hover~.card {
-    transform: translateX(120px);scale:(0.25);
-    position: absolute;
-    backface-visibility: hidden;
+.card:focus-within~.card, .card:hover~.card{
+    transform: translateX(120px);
+ 
+
 }
 
 .card:not(:first-child) {
@@ -75,11 +75,24 @@ body {
     color: #7a7a8c;
 }
 
+.card-header h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
 .card-header h2:hover {
     background: linear-gradient(45deg,#03eec7,#0026ff);
     text-shadow: none;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
     
 }
 
