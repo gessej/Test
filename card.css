@@ -13,7 +13,7 @@ body {
     display: flex;
     position: relative;
     padding: 3rem;
-    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
 }
 
 .card-list::-webkit-scrollbar{
@@ -52,15 +52,15 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-1rem)scale(0.25);
+    transform: translateY(-1rem);scale:(0.25);
     position: absolute;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .card:hover~.card {
-    transform: translateX(120px)scale(0.25);
+    transform: translateX(120px);scale:(0.25);
     position: absolute;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .card:not(:first-child) {
