@@ -6,14 +6,12 @@ body {
     background-color: #17141D;
     color: white;
     font-family: 'DM Mono', monospace;
-    /*transform: translate3d(0, 0, 0);*/
 }
 
 .card-list {
     display: flex;
     position: relative;
     padding: 3rem;
-    /*transform: translate3d(0, 0, 0);*/
     overflow-x: scroll;
 }
 
@@ -55,12 +53,14 @@ body {
 
 .card:hover {
     -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
    
   
 }
 
 .card:focus-within~.card, .card:hover~.card{
     -webkit-transform: translateX(120px);
+    transform: translateY(-1rem);
  
 
 }
