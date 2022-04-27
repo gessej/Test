@@ -60,7 +60,7 @@ body {
 
 .card:focus-within~.card, .card:hover~.card{
     -webkit-transform: translateX(120px);
-    transform: translateY(-1rem);
+    transform: translateX(120px);
  
 
 }
