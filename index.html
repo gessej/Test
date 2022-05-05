@@ -7,9 +7,21 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 
 </head>
 <body ontouchstart>
+
+    Hello world! <br>
+    This is the current date and time, as computed by Python:
+    <py-script>
+from datetime import datetime
+now = datetime.now()
+now.strftime("%m/%d/%Y, %H:%M:%S")
+    </py-script>
+
+
     <div>
     <section class="card-list">
         <article class="card">
